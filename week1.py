@@ -12,4 +12,5 @@ def primesum(self, A):
         if isprime(i) and isprime(A-i):
             return [i, A-i]
 
-
+#correct
+#только на будущее, не очень красиво def внутрь def заносить
