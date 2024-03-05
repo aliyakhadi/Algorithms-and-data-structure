@@ -14,3 +14,5 @@ print(countPairs(0, [-24,-21,-20,-19,35,22,27,34,-41,-20,-3,37,-6,28,-18,48,-43,
 # The time complexity is O(n*target) in worst case but it should still work fast for large n if nums[i] will ve in  a short range
 # Memory complexity is 101*4 + n*4 bytes -> O(n)
 # I think this is better than two nested 'for' loops but I don't know how to make it faster
+
+# yes, it seems that the time complexity is not linear. We still can use sorting and save indexes in pairs
