@@ -24,3 +24,5 @@ print(solve(0, [1, 0, 0, 1, 1, 0, 1], 1))
 
 # time complexity is O(n)
 # memory complexity is O(1) but if number of zeroes is close to n it is O(n)
+
+#Correct
